@@ -24,26 +24,26 @@ This repository contains the source code for a Vocational Training Institute web
    ```
 
 2. Navigate into the project directory:
-```bash
-cd vocational-training-site
-```
+    ```bash
+    cd vocational-training-site
+    ```
 
 3. Install PHP dependencies:
-```bash
-composer install
-```
+    ```bash
+    composer install
+    ```
 
 4. Copy the .env.example file to .env and configure your environment variables, including the database connection settings.
 
 5. Run database migrations and seed data:
-```bash
-php artisan migrate --seed
-```
+    ```bash
+    php artisan migrate --seed
+    ```
 
 6. Serve the application:
-```bash
-php artisan serve
-```
+    ```bash
+    php artisan serve
+    ```
 
 7. Access the application in your web browser at http://localhost:8000.
 
